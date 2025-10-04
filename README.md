@@ -1,4 +1,4 @@
-# ml-bot
+# ML Bot
 
 A deep learning model that classifies text messages as spam or legitimate using TensorFlow and Keras.  
 It preprocesses raw text data, converts it into numerical sequences through vectorization, and trains a neural network to identify spam with high accuracy.
