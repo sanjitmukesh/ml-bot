@@ -1,6 +1,6 @@
 # ml-bot
 
-An ML bot that classifies messages as spam or legitimate using TensorFlow.
+A deep learning model that classifies messages as spam or legitimate using TensorFlow.
 
 ## Features
 - Preprocesses and vectorizes text messages
