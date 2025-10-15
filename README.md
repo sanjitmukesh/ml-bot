@@ -13,11 +13,10 @@ Used in the deployed web app [TextSentinel](https://github.com/sanjitmukesh/text
 - ✅ Generates a saved `.keras` model for deployment via Streamlit
 
 ## Model Overview
-- **Architecture:** TextVectorization → Embedding → GlobalAveragePooling → Dense (ReLU) → Dense (Sigmoid)
 - **Dataset:** [Kaggle SMS Spam Collection](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- **Layers:** TextVectorization → Embedding → GlobalAveragePooling → Dense (ReLU) → Dense (Sigmoid)
 - **Loss Function:** Binary Crossentropy
 - **Optimizer:** Adam
-
 
 ## Technologies
 **Languages:** Python  
