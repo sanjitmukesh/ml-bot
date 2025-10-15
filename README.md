@@ -20,6 +20,6 @@ Used in the deployed web app → [TextSentinel](https://github.com/sanjitmukesh/
 
 
 ## Technologies
-**Languages:** Python
-**Frameworks/Libraries:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn 
+**Languages:** Python  
+**Frameworks/Libraries:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn  
 **Tools:** Git, GitHub, VS Code  
