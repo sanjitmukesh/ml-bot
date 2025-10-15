@@ -1,7 +1,7 @@
 # TextSentinel Model
 **Deep Learning Spam Classifier**
 
-TextSentinel Model is a deep learning pipeline that classifies SMS messages as spam or legitimate using TensorFlow/Keras.
+TextSentinel Model is a deep learning pipeline that classifies SMS messages as spam or legitimate.
 It preprocesses raw text data, converts it into numerical sequences through vectorization, and trains a neural network to accurately identify spam.
 
 Used in the deployed web app [TextSentinel](https://github.com/sanjitmukesh/textsentinel-app).
