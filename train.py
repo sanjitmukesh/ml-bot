@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 import tensorflow as tf
 import keras
 from keras.layers import TextVectorization, Embedding, GlobalAveragePooling1D, Dense
+from keras.callbacks import EarlyStopping
 
 df = pd.read_csv('spam.csv', encoding='latin-1')
 df = df.drop(['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], axis=1)
@@ -85,7 +86,11 @@ model.fit (
     x=X_train,
     y=y_train,
     validation_data=(X_test, y_test),
-    epochs=10
+    epochs=50,
+    callbacks=EarlyStopping(
+        patience=2,
+        restore_best_weights=True
+    )
 )
 
 model.evaluate (
