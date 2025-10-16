@@ -7,10 +7,10 @@ It preprocesses raw text data, converts it into numerical sequences through vect
 Used in the deployed web app [TextSentinel](https://github.com/sanjitmukesh/textsentinel-app).
 
 ## Features
-- 🧩 Preprocesses and vectorizes text messages for model training
-- 🧪 Trains a deep neural network using TensorFlow/Keras
-- 🎯 Achieves 97% validation accuracy on unseen SMS data
-- ✅ Generates a saved `.keras` model for deployment via Streamlit
+- Preprocesses and vectorizes text messages for model training
+- Trains a deep neural network using TensorFlow/Keras
+- Achieves 97% validation accuracy on unseen SMS data
+- Generates a saved `.keras` model for deployment via Streamlit
 
 ## Model Overview
 - **Dataset:** [Kaggle SMS Spam Collection](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
