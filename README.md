@@ -1,7 +1,7 @@
 # Spamify Model
 **Deep Learning Spam Classifier**
 
-Spamify Model is a deep learning pipeline that classifies SMS messages as spam or legitimate.
+This is a deep learning pipeline that classifies SMS messages as spam or legitimate.
 It preprocesses raw text data, converts it into numerical sequences through vectorization, and trains a neural network to accurately identify spam.
 
 Used in the deployed web app [Spamify](https://github.com/sanjitmukesh/spamify-app).
